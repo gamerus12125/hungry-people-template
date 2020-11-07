@@ -91,12 +91,13 @@
       <h2 class="section__title section__title--big">Book a table</h2>
       <form class="form book__form" action="#" method="GET">
         <div class="book__column">
-          <input class="form__input book__input" type="text" name="name" placeholder="Name" required minlength="2" maxlength="20">
-          <input class="book__input" type="tel" name="phone" required placeholder="Phone">
-          <input class="book__input" type="date" name="date" required>
+          <input class="form__input book__input" type="text" name="name" placeholder="Name" required minlength="2"
+            maxlength="20">
+          <input class="form__input book__input" type="tel" name="phone" required placeholder="Phone">
+          <input class="form__input book__input" type="date" name="date" required>
         </div>
         <div class="book__column">
-          <input class="book__input" type="email" name="email" required>
+          <input class="form__input book__input" type="email" name="email" required>
           <select class="book__input" name="people" required>
             <option value="">---</option>
             <option value="1">1 people</option>
@@ -107,6 +108,7 @@
             <option value="6">6 people</option>
           </select>
           <select class="book__input" name="time">
+            <option value="">---</option>
             <option value="18:00">18:00</option>
             <option value="19:00">19:00</option>
             <option value="20:00">20:00</option>
@@ -116,13 +118,13 @@
             <option value="24:00">24:00</option>
           </select>
         </div>
-        <button class="btn book_btn" type="submit">Book now</button>
+        <button class="btn form__btn book_btn" type="submit">Book now</button>
       </form>
       <img class="section__img" src="https://via.placeholder.com/475x475" alt="Clock">
       <p class="section__contacts section__contacts--gray">
         Mon - Fri: <span class="section__contacts section__contacts--bold">8PM - 10PM</span>, Sat - Sun: <span
-          class="section__contacts section__contacts--bold">8PM - 3AM</span>, Phone: <a class="section__contacts section__contacts--bold"
-          href="tel:+40729131637">+40 729
+          class="section__contacts section__contacts--bold">8PM - 3AM</span>, Phone: <a
+          class="section__contacts section__contacts--bold" href="tel:+40729131637">+40 729
           131 637/</a><a class="section__contacts section__contacts--bold" href="tel:+40726458782">+40 726 458 782</a>
       </p>
     </section>
@@ -156,12 +158,172 @@
         <li class="menu__btn"><button type="button">Drinks</button></li>
       </ul>
       <ul class="menu__list">
-        <li>
-          <h3>Pizza Quatro Stagioni</h3>
-          <p>Integer ullamcorper neque eu purus euismod</p>
-          <p>
-            <span>55,68</span>
-            <span>USD</span>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
+          </p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Pizza Quatro Stagioni</h3>
+          <p class="menu__text">Integer ullamcorper neque eu purus euismod</p>
+          <p class="menu__price">
+            <span class="menu__value">55,68</span>
+            <span class="menu__type">USD</span>
           </p>
         </li>
        <li class=" menu__item">
@@ -289,15 +451,18 @@
     <section class="section events">
       <h2 class="section__title section__title--small">Private events</h2>
       <div class="events__cols events__cols--left">
-        <img src="https://via.placeholder.com/475x475" alt="Weddings">
-        <p>Weddings</p>
+        <img class="section__img events__img" src="https://via.placeholder.com/475x475" alt="Weddings">
+        <p class="events__title">Weddings</p>
       </div>
-      <div class="events__cols events__cols--left">
+      <div class="events__cols events__cols--right">
         <img class="section__img events__img" src="https://via.placeholder.com/475x475" alt="Corporate Parties">
         <p class="events__title">Corporate Parties</p>
       </div>
-      <p class="">For private events please call: <a href="tel:+40729131637">+40 729 131 637/</a><a href="+40726458782">+40 726
-          458 782</a> or use the contacts form.</p>
+
+      <p class="section__contacts section__contacts--white">For private events please call: <a
+          class="section__contacts section__contacts--bold" href="tel:+40729131637">+40 729 131 637/</a><a
+          href="+40726458782">+40 726
+          458 782</a> or use the contact form.</p>
     </section>
     <section class="section gallery">
       <h2 class="section__title">Gallery</h2>
@@ -317,25 +482,30 @@
       </ul>
     </section>
     <section class="section contacts">
-      <h2 class="section__title section__title--big">contacts</h2>
-      <p class="section">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+      <h2 class="section__title section__title--big">Contact</h2>
+      <p class="section__text section__text--black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+        velit maximus, molestie est a, tempor magna.
       </p>
-      <form class="form contactss__form" action="#" method="GET">
+      <form class="form contacts__form" action="#" method="GET">
         <fieldset class="contacts__fieldset">
           <legend>Message</legend>
-          <input class="form__input contacts__input" type="text" name="Name" placeholder="Name" required minlength="2" maxlength="20">
+          <input class="form__input contacts__input" type="text" name="Name" placeholder="Name" required minlength="2"
+            maxlength="20">
           <input class="form__input contacts__input" type="email" name="email" placeholder="Email" required>
           <input class="form__input contacts__input" type="tel" name="Phone" placeholder="Phone" required>
-          <textarea class="contacts" name="message" cols="30" rows="10" required placeholder="Message"></textarea>
+          <textarea class="contacts__textarea" name="message" cols="30" rows="10" required
+            placeholder="Message"></textarea>
         </fieldset>
         <div class="contacts__container">
-          <p class="contacts__data contacts__data--adress">5th London Boulevard, U.K.</p>
+          <p class="contacts__data contacts__data--address">5th London Boulevard, U.K.</p>
           <p class="contacts__data contacts__data--phone">
-            <a class="contacts__link" href="tel:+40729131637">+40 729 131 637/</a><a href="tel:+40726458782">+40 726 458 782</a>
+            <a class="contacts__link" href="tel:+40729131637">+40 729 131 637/</a><a class="contacts__link"
+              href="tel:+40726458782">+40 726 458 782</a>
           </p>
-         <p> <a class="contacts__link" href="mailto:office@mindblister.com">office@mindblister.com</a></p>
+          <p class="contacts__data contacts__data--email"><a class="contacts__link"
+              href="mailto:office@mindblister.com">office@mindblister.com</a></p>
         </div>
-        <button class="btn form__btn contacts__btn+" type="submit">Send message</button>
+        <button class="btn form__btn contacts__btn" type="submit">Send message</button>
       </form>
       <div class="contacts__map">
         <img class="contacts__img" src="https://via.placeholder.com/1440x475" alt="5th London Boulevard, U.K.">
